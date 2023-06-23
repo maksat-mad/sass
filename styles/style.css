@@ -1,0 +1,24 @@
+header, .contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: red;
+  display: flex;
+  justify-content: center;
+  color: rgb(58, 42, 42);
+}
+header button, .contact button {
+  background: rgb(182, 85, 153);
+}
+header button:hover, .contact button:hover {
+  background: yellow;
+}
+header button::after, .contact button::after {
+  content: "*";
+}
+
+.contact {
+  width: 80%;
+}/*# sourceMappingURL=style.css.map */
